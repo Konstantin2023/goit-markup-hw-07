@@ -135,7 +135,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.studio-2 {
+.footer__studio {
   color: var(--text-button-color);
   font-family: 'Raleway';
   font-style: normal;
@@ -205,7 +205,7 @@ header {
   align-items: center;
 }
 
-.link-logo2 {
+.footer__logo {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -311,7 +311,7 @@ header {
   padding-top: 94px;
 }
 
-.qualities-item {
+.qualities__item {
   width: 270px;
 }
 
@@ -319,7 +319,7 @@ header {
   display: flex;
 }
 
-.section-people {
+.people__section {
   background-color: var(--button-assortment-background-color);
 }
 
@@ -523,8 +523,30 @@ header {
   text-decoration: none;
 }
 
-.link-tel-2:hover,
-.link-tel-2:focus {
+.footer__tel {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  text-decoration: none;
+  list-style: none;
+
+  display: block;
+
+  transition-property: background-color color;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__tel:hover,
+.footer__tel:focus {
   color: var(--brand-color2);
   cursor: pointer;
   text-decoration: none;
@@ -542,7 +564,7 @@ header {
 
 /* Ефективні рішення для вашого бізнесу */
 
-.main-name {
+.hero__name {
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -563,7 +585,7 @@ header {
 
 /* Особливості */
 
-.list-acquirement {
+.qualities__acquirement {
   /* УВАГА ДО ДЕТАЛЕЙ */
 
   font-size: 14px;
@@ -572,7 +594,7 @@ header {
   text-transform: uppercase;
 }
 
-.list-acquirement-text {
+.qualities__text {
   line-height: calc(24 / 14);
   /* or 171% */
 
@@ -591,7 +613,7 @@ header {
   margin-bottom: 50px;
 }
 
-.user-name {
+.people__name {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -603,7 +625,7 @@ header {
   margin-bottom: 10px;
 }
 
-.profession {
+.people__profession {
   font-size: 16px;
   line-height: calc(19 / 16);
 
@@ -619,11 +641,11 @@ header {
   padding-bottom: 60px;
 }
 
-.location {
+.footer__location {
   margin-bottom: 9px;
 }
 
-.link-2 {
+.footer__link {
   line-height: calc(24 / 14);
   /* or 171% */
 
@@ -635,11 +657,11 @@ header {
   display: block;
 }
 
-.internet-mail {
+.footer__mail {
   margin-bottom: 9px;
 }
 
-.link-email-2 {
+.footer__email {
   line-height: calc(24 / 14);
 
   color: rgba(255, 255, 255, 0.6);
@@ -655,30 +677,8 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.phone-connection {
+.footer__phone {
   /* margin-bottom: 60px; */
-}
-
-.link-tel-2 {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: calc(24 / 14);
-
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
-
-  text-decoration: none;
-  list-style: none;
-
-  display: block;
-
-  transition-property: background-color color;
-
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-title {
@@ -725,7 +725,7 @@ header {
   margin-bottom: 50px;
 }
 
-.photo {
+.people__specialist {
   background: var(--text-button-color);
   /* material shadow v1 */
 
@@ -734,7 +734,7 @@ header {
   border-radius: 0px 0px 4px 4px;
 }
 
-.plate {
+.qualities__plate {
   display: flex;
   background-color: var(--button-assortment-background-color);
   justify-content: center;
@@ -744,17 +744,17 @@ header {
   margin-bottom: 30px;
 }
 
-.clientage {
+.clientage__list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.box-client {
+.clientage__svg {
   fill: currentColor;
 }
 
-.regular-customers {
+.clientage__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -769,23 +769,20 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.regular-customers:hover,
-.regular-customers:focus {
+.clientage__link:hover,
+.clientage__link:focus {
   color: var(--brand-color2);
   border-color: var(--brand-color2);
 }
 
-.social-link {
+.people__socials {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 
-.social-wrapper {
-}
-
-.social-network {
+.people__network {
   display: flex;
   width: 44px;
   height: 44px;
@@ -800,17 +797,17 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.toils-picture {
+.people__social {
   fill: currentColor;
 }
 
-.social-network:focus,
-.social-network:hover {
+.people__network:focus,
+.people__network:hover {
   color: var(--text-button-color);
   background-color: var(--brand-color2);
 }
 
-.social-network-below {
+.footer__social {
   display: flex;
   width: 44px;
   height: 44px;
@@ -826,13 +823,13 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-network-below:focus,
-.social-network-below:hover {
+.footer__social:focus,
+.footer__social:hover {
   fill: var(--text-button-color);
   background-color: var(--brand-color2);
 }
 
-.accession {
+.footer__accession {
   font-weight: 700;
 
   line-height: calc(16 / 14);
@@ -849,21 +846,16 @@ header {
   justify-content: space-between;
 }
 
-.wrapper-address {
-}
-
-.team-wraper {
+.people__wraper {
   padding-bottom: 30px;
 }
 
-.box-1,
-.box-2,
-.box-3 {
+.pictures__boxes {
   position: relative;
   z-index: 1;
 }
 
-.box-1-1 {
+.pictures__box {
   position: absolute;
   bottom: 4px;
   left: 0;
@@ -874,7 +866,7 @@ header {
   padding-bottom: 27px;
 }
 
-.picture-of-classes {
+.pictures__classes {
   font-size: 14px;
   line-height: calc(16 / 14);
 
@@ -1147,15 +1139,11 @@ textarea {
   border-color: var(--brand-color2);
 }
 
-.submit {
-  display: ;
-}
-
-.email {
+.footer__emails {
   display: inline-block;
 }
 
-.email-input {
+.footer__input {
   height: 50px;
   width: 358px;
   border-radius: 4px;
@@ -1170,35 +1158,32 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.email-input::placeholder {
+.footer__input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.email-input:focus {
+.footer__input:focus {
   border: 1px solid var(--brand-color2);
   outline: transparent;
 }
 
-.support {
+.footer__support {
   margin-right: 0;
 }
 
-.submit {
+.footer__submit {
   margin-left: 12px;
 }
 
-.text-submit {
+.footer__btn {
   align-items: center;
   display: flex;
 }
 
-.airplane {
+.footer__airplane {
   fill: var(--text-button-color);
   justify-items: center;
   margin-left: 10px;
-}
-
-.email-input {
 }
 
 .textaria {

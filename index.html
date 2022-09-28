@@ -60,58 +60,60 @@
     <!-- Контент сторінки -->
     <main>
       <!-- Коробка з назвою -->
-      <section class="section hero">
+      <section class="hero section">
         <div class="container">
-          <h1 class="main-name">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="button" data-modal-open>Замовити послугу</button>
+          <h1 class="hero__name">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="hero__button button" data-modal-open>
+            Замовити послугу
+          </button>
         </div>
       </section>
       <!-- Корпоративні якості -->
-      <section class="section qualities">
+      <section class="qualities section">
         <div class="container">
           <h2 class="visually-hidden">Корпоративні якості</h2>
-          <ul class="list">
-            <li class="qualities-item">
-              <div class="plate">
+          <ul class="qualities__list list">
+            <li class="qualities__item">
+              <div class="qualities__plate">
                 <svg width="65" height="70">
                   <use href="./images/icons.svg#antenna"></use>
                 </svg>
               </div>
-              <h3 class="list-acquirement">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="list-acquirement-text">
+              <h3 class="qualities__acquirement">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="qualities__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-            <li class="qualities-item">
-              <div class="plate">
+            <li class="qualities__item">
+              <div class="qualities__plate">
                 <svg width="66" height="70">
                   <use href="./images/icons.svg#clock"></use>
                 </svg>
               </div>
-              <h3 class="list-acquirement">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="list-acquirement-text">
+              <h3 class="qualities__acquirement">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="qualities__text">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
-            <li class="qualities-item">
-              <div class="plate">
+            <li class="qualities__item">
+              <div class="qualities__plate">
                 <svg width="70" height="53.69">
                   <use href="./images/icons.svg#diagram"></use>
                 </svg>
               </div>
-              <h3 class="list-acquirement">ПЛАНУВАННЯ</h3>
-              <p class="list-acquirement-text">
+              <h3 class="qualities__acquirement">ПЛАНУВАННЯ</h3>
+              <p class="qualities__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="qualities-item">
-              <div class="plate">
+            <li class="qualities__item">
+              <div class="qualities__plate">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#astronaut"></use>
                 </svg>
               </div>
-              <h3 class="list-acquirement">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="list-acquirement-text">
+              <h3 class="qualities__acquirement">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="qualities__text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
@@ -119,99 +121,105 @@
         </div>
       </section>
       <!-- Картинки занять -->
-      <section class="section pictures">
-        <div class="container">
-          <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="list">
+      <section class="pictures__section section">
+        <div class="pictures__container container">
+          <h2 class="pictures__title section-title">Чим ми займаємося</h2>
+          <ul class="pictures__list list">
             <li>
-              <div class="box-1">
+              <div class="pictures__boxes">
                 <img
                   src="./images/img1.jpg"
                   alt="Програмування за планшетом"
                   width="370"
                   height="294"
                 />
-                <div class="box-1-1"><h3 class="picture-of-classes">Десктопні додатки</h3></div>
+                <div class="pictures__box">
+                  <h3 class="pictures__classes">Десктопні додатки</h3>
+                </div>
               </div>
             </li>
             <li>
-              <div class="box-2">
+              <div class="pictures__boxes">
                 <img
                   src="./images/img2.jpg"
                   alt="Програмування за комп'ютером"
                   width="370"
                   height="294"
                 />
-                <div class="box-1-1"><h3 class="picture-of-classes">Мобільні додатки</h3></div>
+                <div class="pictures__box">
+                  <h3 class="pictures__classes">Мобільні додатки</h3>
+                </div>
               </div>
             </li>
             <li>
-              <div class="box-3">
+              <div class="pictures__boxes">
                 <img
                   src="./images/img3.jpg"
                   alt="Програмування за планшетом, вибір кольорів"
                   width="370"
                   height="294"
                 />
-                <div class="box-1-1"><h3 class="picture-of-classes">Дизайнерські рішення</h3></div>
+                <div class="pictures__box">
+                  <h3 class="pictures__classes">Дизайнерські рішення</h3>
+                </div>
               </div>
             </li>
           </ul>
         </div>
       </section>
       <!-- Команда спеціалістів -->
-      <section class="section section-people">
+      <section class="people__section section">
         <div class="container">
-          <h2 class="section-title">Наша команда</h2>
-          <ul class="list">
-            <li class="photo">
-              <div class="team-wraper">
+          <h2 class="people__title section-title">Наша команда</h2>
+          <ul class="people__list list">
+            <li class="people__specialist">
+              <div class="people__wraper">
                 <img
                   src="./images/ihor_demyanenko.jpg"
                   alt="Фото Ігор Дем'яненко"
                   width="270"
                   height="260"
                 />
-                <h3 class="user-name">Ігор Дем'яненко</h3>
-                <p class="profession">Product Designer</p>
-                <ul class="social-link">
+                <h3 class="people__name">Ігор Дем'яненко</h3>
+                <p class="people__profession">Product Designer</p>
+                <ul class="people__socials">
                   <li>
                     <a
-                      class="social-network"
+                      class="people__network"
                       href="https://www.instagram.com/"
                       target="_blank"
                       rel="nofollow noreferrer noopener"
-                      ><svg class="toils-picture" width="20" height="20">
+                      ><svg class="people__social" width="20" height="20">
                         <use href="./images/icons.svg#instagram"></use></svg
                     ></a>
                   </li>
                   <li>
                     <a
-                      class="social-network"
+                      class="people__network"
                       href="https://twitter.com/"
                       target="_blank"
                       rel="nofollow noreferrer noopener"
-                      ><svg class="toils-picture" width="20" height="20">
+                      ><svg class="people__social" width="20" height="20">
                         <use href="./images/icons.svg#twitter"></use></svg
                     ></a>
                   </li>
                   <li>
                     <a
-                      class="social-network"
+                      class="people__network"
                       href="https://www.facebook.com/"
                       target="_blank"
                       rel="nofollow noreferrer noopener"
-                      ><svg class="toils-picture" width="20" height="20">
+                      ><svg class="people__social" width="20" height="20">
                         <use href="./images/icons.svg#facebook"></use></svg
                     ></a>
                   </li>
                   <li>
                     <a
-                      class="social-network"
+                      class="people__network"
                       href="https://www.linkedin.com/"
                       target="_blank"
                       rel="nofollow noreferrer noopener"
-                      ><svg class="toils-picture" width="20" height="20">
+                      ><svg class="people__social" width="20" height="20">
                         <use href="./images/icons.svg#linkedin"></use></svg
                     ></a>
                   </li>
@@ -219,162 +227,162 @@
               </div>
             </li>
 
-            <li class="photo">
-              <div class="team-wraper">
+            <li class="people__specialist">
+              <div class="people__wraper">
                 <img
                   src="./images/olga_repina.jpg"
                   alt="Фото Ольга Рєпіна"
                   width="270"
                   height="260"
                 />
-                <h3 class="user-name">Ольга Рєпіна</h3>
-                <p class="profession">Frontend Developer</p>
-                <ul class="social-link">
+                <h3 class="people__name">Ольга Рєпіна</h3>
+                <p class="people__profession">Frontend Developer</p>
+                <ul class="people__socials">
                   <li>
                     <a
-                      class="social-network"
+                      class="people__network"
                       href="https://www.instagram.com/"
                       target="_blank"
                       rel="nofollow noreferrer noopener"
-                      ><svg class="toils-picture" width="20" height="20">
+                      ><svg class="people__social" width="20" height="20">
                         <use href="./images/icons.svg#instagram"></use></svg
                     ></a>
                   </li>
                   <li>
                     <a
-                      class="social-network"
+                      class="people__network"
                       href="https://twitter.com/"
                       target="_blank"
                       rel="nofollow noreferrer noopener"
-                      ><svg class="toils-picture" width="20" height="20">
+                      ><svg class="people__social" width="20" height="20">
                         <use href="./images/icons.svg#twitter"></use></svg
                     ></a>
                   </li>
                   <li>
                     <a
-                      class="social-network"
+                      class="people__network"
                       href="https://www.facebook.com/"
                       target="_blank"
                       rel="nofollow noreferrer noopener"
-                      ><svg class="toils-picture" width="20" height="20">
+                      ><svg class="people__social" width="20" height="20">
                         <use href="./images/icons.svg#facebook"></use></svg
                     ></a>
                   </li>
                   <li>
                     <a
-                      class="social-network"
+                      class="people__network"
                       href="https://www.linkedin.com/"
                       target="_blank"
                       rel="nofollow noreferrer noopener"
-                      ><svg class="toils-picture" width="20" height="20">
+                      ><svg class="people__social" width="20" height="20">
                         <use href="./images/icons.svg#linkedin"></use></svg
                     ></a>
                   </li>
                 </ul>
               </div>
             </li>
-            <li class="photo">
-              <div class="team-wraper">
+            <li class="people__specialist">
+              <div class="people__wraper">
                 <img
                   src="./images/mykola_tarasov.jpg"
                   alt="Фото Микола Тарасов"
                   width="270"
                   height="260"
                 />
-                <h3 class="user-name">Микола Тарасов</h3>
-                <p class="profession">Marketing</p>
-                <ul class="social-link">
+                <h3 class="people__name">Микола Тарасов</h3>
+                <p class="people__profession">Marketing</p>
+                <ul class="people__socials">
                   <li>
                     <a
-                      class="social-network"
+                      class="people__network"
                       href="https://www.instagram.com/"
                       target="_blank"
                       rel="nofollow noreferrer noopener"
-                      ><svg class="toils-picture" width="20" height="20">
+                      ><svg class="people__social" width="20" height="20">
                         <use href="./images/icons.svg#instagram"></use></svg
                     ></a>
                   </li>
                   <li>
                     <a
-                      class="social-network"
+                      class="people__network"
                       href="https://twitter.com/"
                       target="_blank"
                       rel="nofollow noreferrer noopener"
-                      ><svg class="toils-picture" width="20" height="20">
+                      ><svg class="people__social" width="20" height="20">
                         <use href="./images/icons.svg#twitter"></use></svg
                     ></a>
                   </li>
                   <li>
                     <a
-                      class="social-network"
+                      class="people__network"
                       href="https://www.facebook.com/"
                       target="_blank"
                       rel="nofollow noreferrer noopener"
-                      ><svg class="toils-picture" width="20" height="20">
+                      ><svg class="people__social" width="20" height="20">
                         <use href="./images/icons.svg#facebook"></use></svg
                     ></a>
                   </li>
                   <li>
                     <a
-                      class="social-network"
+                      class="people__network"
                       href="https://www.linkedin.com/"
                       target="_blank"
                       rel="nofollow noreferrer noopener"
-                      ><svg class="toils-picture" width="20" height="20">
+                      ><svg class="people__social" width="20" height="20">
                         <use href="./images/icons.svg#linkedin"></use></svg
                     ></a>
                   </li>
                 </ul>
               </div>
             </li>
-            <li class="photo">
-              <div class="team-wraper">
+            <li class="people__specialist">
+              <div class="people__wraper">
                 <img
                   src="./images/mykhailo_yermakov.jpg"
                   alt="Фото Михайло Єрмаков"
                   width="270"
                   height="260"
                 />
-                <h3 class="user-name">Михайло Єрмаков</h3>
-                <p class="profession">UI Designer</p>
-                <ul class="social-link">
+                <h3 class="people__name">Михайло Єрмаков</h3>
+                <p class="people__profession">UI Designer</p>
+                <ul class="people__socials">
                   <li>
                     <a
-                      class="social-network"
+                      class="people__network"
                       href="https://www.instagram.com/"
                       target="_blank"
                       rel="nofollow noreferrer noopener"
-                      ><svg class="toils-picture" width="20" height="20">
+                      ><svg class="people__social" width="20" height="20">
                         <use href="./images/icons.svg#instagram"></use></svg
                     ></a>
                   </li>
                   <li>
                     <a
-                      class="social-network"
+                      class="people__network"
                       href="https://twitter.com/"
                       target="_blank"
                       rel="nofollow noreferrer noopener"
-                      ><svg class="toils-picture" width="20" height="20">
+                      ><svg class="people__social" width="20" height="20">
                         <use href="./images/icons.svg#twitter"></use></svg
                     ></a>
                   </li>
                   <li>
                     <a
-                      class="social-network"
+                      class="people__network"
                       href="https://www.facebook.com/"
                       target="_blank"
                       rel="nofollow noreferrer noopener"
-                      ><svg class="toils-picture" width="20" height="20">
+                      ><svg class="people__social" width="20" height="20">
                         <use href="./images/icons.svg#facebook"></use></svg
                     ></a>
                   </li>
                   <li>
                     <a
-                      class="social-network"
+                      class="people__network"
                       href="https://www.linkedin.com/"
                       target="_blank"
                       rel="nofollow noreferrer noopener"
-                      ><svg class="toils-picture" width="20" height="20">
+                      ><svg class="people__social" width="20" height="20">
                         <use href="./images/icons.svg#linkedin"></use></svg
                     ></a>
                   </li>
@@ -387,41 +395,41 @@
       <!-- Постійні клієнти -->
       <section class="section">
         <div class="container">
-          <h2 class="section-title">Постійні клієнти</h2>
-          <ul class="clientage">
+          <h2 class="section-title clientage__title">Постійні клієнти</h2>
+          <ul class="clientage__list">
             <li class="">
-              <a href="" class="regular-customers"
-                ><svg class="box-client" width="51" height="56">
+              <a href="" class="clientage__link"
+                ><svg class="clientage__svg" width="51" height="56">
                   <use href="./images/icons.svg#yaco"></use></svg
               ></a>
             </li>
             <li>
-              <a href="" class="regular-customers"
-                ><svg class="box-client" width="50" height="62">
+              <a href="" class="clientage__link"
+                ><svg class="clientage__svg" width="50" height="62">
                   <use href="./images/icons.svg#tagline_here"></use></svg
               ></a>
             </li>
             <li>
-              <a href="" class="regular-customers"
-                ><svg class="box-client" width="53" height="51">
+              <a href="" class="clientage__link"
+                ><svg class="clientage__svg" width="53" height="51">
                   <use href="./images/icons.svg#company"></use></svg
               ></a>
             </li>
             <li>
-              <a href="" class="regular-customers"
-                ><svg class="box-client" width="134" height="90">
+              <a href="" class="clientage__link"
+                ><svg class="clientage__svg" width="134" height="90">
                   <use href="./images/icons.svg#foster_peters"></use></svg
               ></a>
             </li>
             <li>
-              <a href="" class="regular-customers"
-                ><svg class="box-client" width="82" height="65">
+              <a href="" class="clientage__link"
+                ><svg class="clientage__svg" width="82" height="65">
                   <use href="./images/icons.svg#brand"></use></svg
               ></a>
             </li>
             <li>
-              <a href="" class="regular-customers"
-                ><svg class="box-client" width="153" height="92">
+              <a href="" class="clientage__link"
+                ><svg class="clientage__svg" width="153" height="92">
                   <use href="./images/icons.svg#tag_line"></use></svg
               ></a>
             </li>
@@ -431,35 +439,37 @@
     </main>
     <!-- Підвал сайту -->
     <footer class="footer">
-      <div class="container footer-container">
-        <div class="wrapper-address">
-          <a href="./index.html" class="link-logo2">Web<span class="studio-2">Studio</span></a>
+      <div class="footer-container container">
+        <div class="footer__frame">
+          <a href="./index.html" class="footer__logo"
+            >Web<span class="footer__studio">Studio</span></a
+          >
           <address>
-            <ul class="list-footer">
-              <li class="location">
+            <ul class="footer__list">
+              <li class="footer__location">
                 <a
                   href="https://goo.gl/maps/anYDDAXLJ23gka5G6"
                   target="_blank"
                   rel="nofollow noreferrer noopener"
-                  class="link-2"
+                  class="footer__link"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="internet-mail">
-                <a href="mailto:info@devstudio.com" class="link-email-2">info@devstudio.com</a>
+              <li class="footer__mail">
+                <a href="mailto:info@devstudio.com" class="footer__email">info@devstudio.com</a>
               </li>
-              <li class="phone-connection">
-                <a href="tel:+380961111111" class="link-tel-2">+38 096 111 11 11</a>
+              <li class="footer__phone">
+                <a href="tel:+380961111111" class="footer__tel">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
-        <div class="social-wrapper">
-          <b class="accession">приєднуйтесь</b>
-          <ul class="social-link">
+        <div class="people__wrapper">
+          <b class="footer__accession">приєднуйтесь</b>
+          <ul class="people__socials">
             <li>
               <a
-                class="social-network-below"
+                class="footer__social"
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="nofollow noreferrer noopener"
@@ -469,7 +479,7 @@
             </li>
             <li>
               <a
-                class="social-network-below"
+                class="footer__social"
                 href="https://twitter.com/"
                 target="_blank"
                 rel="nofollow noreferrer noopener"
@@ -479,7 +489,7 @@
             </li>
             <li>
               <a
-                class="social-network-below"
+                class="footer__social"
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="nofollow noreferrer noopener"
@@ -489,7 +499,7 @@
             </li>
             <li>
               <a
-                class="social-network-below"
+                class="footer__social"
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="nofollow noreferrer noopener"
@@ -499,16 +509,16 @@
             </li>
           </ul>
         </div>
-        <div class="social-wrapper support">
-          <b class="accession">Підпишіться на розсилку</b>
+        <div class="footer__support">
+          <b class="footer__accession">Підпишіться на розсилку</b>
           <form name="signup_form" autocomplete="on">
-            <label class="email">
-              <input class="email-input" type="email" name="email" placeholder="E-mail" />
+            <label class="footer__emails">
+              <input class="footer__input" type="email" name="email" placeholder="E-mail" />
             </label>
-            <button type="submit" class="submit button">
-              <span class="text-submit"
+            <button type="submit" class="footer__submit button">
+              <span class="footer__btn"
                 >Підписатися
-                <svg class="airplane" width="24" height="24">
+                <svg class="footer__airplane" width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use></svg
               ></span>
             </button>
