@@ -82,7 +82,7 @@ line-heigt: calc(30 / 18); */
   padding: 10px 32px;
 }
 
-.button-assortment {
+.button__assortment {
   color: var(--text-cl);
   background-color: var(--button-assortment-background-color);
 
@@ -105,8 +105,8 @@ line-heigt: calc(30 / 18); */
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-assortment:hover,
-.button-assortment:focus {
+.button__assortment:hover,
+.button__assortment:focus {
   background-color: var(--brand-color2);
   color: var(--text-button-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
@@ -124,7 +124,7 @@ body {
 }
 /* Логотип */
 
-.header__studio {
+.header__span {
   color: var(--text-cl);
   font-family: 'Raleway';
   font-style: normal;
@@ -172,7 +172,7 @@ header {
   border-bottom: 1px solid #ececec;
 }
 
-.project-team {
+.project__team {
   border: 1px solid #ececec;
 }
 
@@ -181,7 +181,7 @@ header {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
 } */
 
-.project-list-list {
+.project__link {
   text-decoration: none;
   display: block;
 
@@ -191,8 +191,8 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project-list-list:hover,
-.project-list-list:focus {
+.project__link:hover,
+.project__link:focus {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
 }
 
@@ -244,7 +244,32 @@ header {
   margin-bottom: 20px;
 }
 
-.list {
+/* .list {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+
+  justify-content: center;
+} */
+
+.qualities__list {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  /* justify-content: center; */
+}
+
+.people__list {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  /* justify-content: center; */
+}
+
+.pictures__list {
   text-decoration: none;
   list-style: none;
   display: flex;
@@ -330,7 +355,7 @@ header {
   justify-content: center;
 }
 
-.link-studio {
+.header__studio {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -376,14 +401,14 @@ header {
   border-radius: 2px;
 }
 
-.link-studio:hover,
-.link-studio:focus {
+.header__studio:hover,
+.header__studio:focus {
   color: var(--brand-color2);
   cursor: pointer;
   text-decoration: none;
 }
 
-.link-portfolio-actively {
+.header__portfolio--actively {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -399,7 +424,7 @@ header {
   padding-bottom: 33px;
 }
 
-.link-portfolio-actively::after {
+.header__portfolio--actively::after {
   content: '';
   display: block;
   width: 100%;
@@ -605,7 +630,31 @@ header {
 
 /* Чим ми займаємося */
 
-.section-title {
+/* .section-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+
+  margin-bottom: 50px;
+} */
+
+.pictures__title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+.people__title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+.clientage__title {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -681,7 +730,7 @@ header {
   /* margin-bottom: 60px; */
 }
 
-.project-title {
+.project__title {
   font-size: 18px;
   line-height: calc(36 / 18);
 
@@ -694,7 +743,7 @@ header {
   padding-left: 24px;
 }
 
-.project-text {
+.project__text {
   font-size: 16px;
   line-height: calc(30 / 16);
 
@@ -710,13 +759,13 @@ header {
   display: flex;
 } */
 
-.project-list {
+.project__list {
   display: flex;
   gap: 26px;
   flex-wrap: wrap;
 }
 
-.button-list {
+.button__list {
   text-decoration: none;
   list-style: none;
   display: flex;
@@ -776,6 +825,13 @@ header {
 }
 
 .people__socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__socials {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -850,6 +906,10 @@ header {
   padding-bottom: 30px;
 }
 
+.footer__wraper {
+  padding-bottom: 30px;
+}
+
 .pictures__boxes {
   position: relative;
   z-index: 1;
@@ -874,7 +934,7 @@ header {
   color: var(--text-button-color);
 }
 
-.box-project-1 {
+.project__boxes {
   position: relative;
   width: 370px;
   height: 294px;
@@ -883,11 +943,11 @@ header {
   overflow: hidden;
 }
 
-.box-project-1:hover .box-project-2 {
+.project__boxes:hover .project__box {
   transform: translatex(0);
 }
 
-.box-project-2 {
+.project__box {
   position: absolute;
   top: 0;
   left: 0;
@@ -922,7 +982,7 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal {
+.register-form {
   width: 528px;
   padding: 40px;
   background-color: var(--text-button-color);
@@ -940,7 +1000,7 @@ header {
   pointer-events: none;
 }
 
-.modal-btn {
+.register-form__btn {
   border-radius: 50%;
   position: absolute;
   top: 8px;
@@ -964,8 +1024,8 @@ header {
   color: var(--text-cl);
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
+.register-form__btn:hover,
+.register-form__btn:focus {
   fill: var(--brand-color2);
 }
 
@@ -979,28 +1039,28 @@ textarea {
   height: 120px;
 }
 
-.register-form-input::invalid {
+.register-form__input::invalid {
   outline-color: red;
 }
 
-.register-form-input::valid {
+.register-form__input::valid {
   outline-color: var(--brand-color2);
 }
 
-.register-form-input::required {
+.register-form__input::required {
   outline-color: red;
 }
 
-.register-form-input::optional {
+.register-form__input::optional {
   outline-color: grey;
 }
 
-.register-form-btn::disabled {
+.register-form__btn::disabled {
   background-color: transparent;
   color: gray;
 }
 
-.register-form-title {
+.register-form__title {
   font-weight: 700;
   font-size: 20px;
   line-height: calc(23 / 20);
@@ -1012,11 +1072,11 @@ textarea {
   margin-bottom: 12px;
 }
 
-.register-form-group {
+.register-form__group {
   margin-bottom: 30px;
 }
 
-.register-form-agreement {
+.register-form__agreement {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1024,25 +1084,25 @@ textarea {
   gap: 8px;
 }
 
-.register-form-btn {
+.register-form__button {
   display: block;
   margin: 0 auto;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
 }
 
-.register-form-field {
+.register-form__field {
   display: block;
   margin-bottom: 10px;
   position: relative;
 }
 
-.register-form-label {
+.register-form__label {
   font-size: 12px;
   display: block;
   margin-bottom: 4px;
 }
 
-.register-form-input {
+.register-form__input {
   width: 100%;
   height: 40px;
   border-radius: 4px;
@@ -1056,19 +1116,19 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.register-form-input:focus {
+.register-form__input:focus {
   border: 1px solid var(--brand-color2);
 }
 
-.register-form-input:focus + .register-form-icon {
+.register-form__input:focus + .register-form__icon {
   fill: var(--brand-color2);
 }
 
-.register-form-input:focus-visible {
+.register-form__input:focus-visible {
   border: 1px solid var(--brand-color2);
 }
 
-.register-form-icon {
+.register-form__icon {
   position: absolute;
   bottom: 14px;
   left: 15px;
@@ -1078,7 +1138,7 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.register-form-message {
+.register-form__message {
   display: block;
   height: 120px;
   resize: none;
@@ -1101,25 +1161,25 @@ textarea {
   font-size: 12px;
 }
 
-.icon-checked {
+.register-form__checked {
   opacity: 0;
   transition: opacity 250ms;
 }
 
-.icon-unchecked {
+.register-form__unchecked {
   opacity: 1;
   transition: opacity 250ms;
 }
 
-.register-form-checkbox:checked + .register-form-icons .icon-checked {
+.register-form__checkbox:checked + .register-form__icons .register-form__checked {
   opacity: 1;
 }
 
-.register-form-checkbox:checked + .register-form-icons .icon-unchecked {
+.register-form__checkbox:checked + .register-form__icons .register-form__unchecked {
   opacity: 0;
 }
 
-.register-form-desc {
+.register-form__desc {
   user-select: none;
 
   font-size: 14px;
@@ -1128,7 +1188,7 @@ textarea {
   color: var(--text-cl2);
 }
 
-.register-form-link {
+.register-form__link {
   font-size: 14px;
   line-height: 24px;
 
