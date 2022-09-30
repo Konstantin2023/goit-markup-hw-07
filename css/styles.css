@@ -225,25 +225,6 @@ header {
   margin-bottom: 20px;
 }
 
-.link-logo3 {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: calc(31 / 26);
-
-  letter-spacing: 0.03em;
-
-  color: var(--brand-color2);
-
-  text-decoration: none;
-  list-style: none;
-
-  display: block;
-
-  margin-bottom: 20px;
-}
-
 /* .list {
   text-decoration: none;
   list-style: none;
@@ -289,16 +270,6 @@ header {
   gap: 50px;
   margin-left: auto;
 }
-.link:hover,
-.link:focus {
-  color: var(--brand-color2);
-  cursor: pointer;
-  text-decoration: none;
-}
-.link:active {
-  color: var(--brand-color2);
-  text-decoration: none;
-}
 
 .pictures {
   padding-top: 0px;
@@ -306,11 +277,6 @@ header {
 
 .pictures {
   padding-top: 0px;
-}
-
-.our-classes {
-  display: flex;
-  flex-direction: column;
 }
 
 .hero {
@@ -328,10 +294,6 @@ header {
   background-size: cover;
 }
 
-.container-name {
-  text-align: center;
-}
-
 .qualities {
   padding-top: 94px;
 }
@@ -340,19 +302,8 @@ header {
   width: 270px;
 }
 
-.corporate-qualities {
-  display: flex;
-}
-
 .people__section {
   background-color: var(--button-assortment-background-color);
-}
-
-.people-team {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
-  justify-content: center;
 }
 
 .header__studio {
@@ -505,8 +456,8 @@ header {
   text-decoration: none;
 }
 
-.link-email-2:hover,
-.link-email-2:focus {
+.footer__email:hover,
+.footer__email:focus {
   color: var(--brand-color2);
   cursor: pointer;
   text-decoration: none;
@@ -896,7 +847,7 @@ header {
   display: block;
 }
 
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -1020,7 +971,7 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.x {
+.register-form__x {
   color: var(--text-cl);
 }
 
@@ -1157,7 +1108,7 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.register-form-message::placeholder {
+.register-form__message::placeholder {
   font-size: 12px;
 }
 
