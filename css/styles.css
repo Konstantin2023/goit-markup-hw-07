@@ -2,11 +2,6 @@ html {
   box-sizing: border-box;
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 h1,
 h2,
 h3,
@@ -16,7 +11,7 @@ ul {
   padding: 0;
   border: 0;
 }
-/* HTML5 display-role reset for older browsers */
+
 ul {
   list-style: none;
 }
@@ -30,12 +25,6 @@ ul {
   --text-button-color: #ffffff;
   --button-assortment-background-color: #f5f4fa;
 }
-
-/* font-size: 18px;
-line-heigt: calc(30 / 18); */
-/* line-heigt:1,66666667 (30) */
-
-/* button */
 
 .visually-hidden {
   position: absolute;
@@ -71,13 +60,10 @@ line-heigt: calc(30 / 18); */
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
   border: none;
-
   border-radius: 4px;
   padding: 10px 32px;
 }
@@ -85,22 +71,18 @@ line-heigt: calc(30 / 18); */
 .button__assortment {
   color: var(--text-cl);
   background-color: var(--button-assortment-background-color);
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
-
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
   border-radius: 4px;
   padding: 6px 22px;
   cursor: pointer;
-
   transition-property: background-color, color, box-shadow;
-
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -122,7 +104,6 @@ body {
   font-size: 14px;
   color: var(--text-cl);
 }
-/* Логотип */
 
 .header__span {
   color: var(--text-cl);
@@ -131,7 +112,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-
   letter-spacing: 0.03em;
 }
 
@@ -142,7 +122,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-
   letter-spacing: 0.03em;
 }
 
@@ -152,16 +131,11 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-
   letter-spacing: 0.03em;
-
   color: var(--brand-color2);
-
   text-decoration: none;
   list-style: none;
-
   margin-right: 93px;
-
   display: flex;
   align-items: center;
 }
@@ -176,17 +150,10 @@ header {
   border: 1px solid #ececec;
 }
 
-/* .project-team:hover,
-.project-team:focus {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
-} */
-
 .project__link {
   text-decoration: none;
   display: block;
-
   transition-property: box-shadow;
-
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -211,35 +178,19 @@ header {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  /* identical to box height */
-
   letter-spacing: 0.03em;
-
   color: var(--brand-color2);
-
   text-decoration: none;
   list-style: none;
-
   display: block;
-
   margin-bottom: 20px;
 }
-
-/* .list {
-  text-decoration: none;
-  list-style: none;
-  display: flex;
-  gap: 30px;
-
-  justify-content: center;
-} */
 
 .qualities__list {
   text-decoration: none;
   list-style: none;
   display: flex;
   gap: 30px;
-  /* justify-content: center; */
 }
 
 .people__list {
@@ -247,7 +198,6 @@ header {
   list-style: none;
   display: flex;
   gap: 30px;
-  /* justify-content: center; */
 }
 
 .pictures__list {
@@ -255,7 +205,6 @@ header {
   list-style: none;
   display: flex;
   gap: 30px;
-  /* justify-content: center; */
 }
 
 .header__contacts,
@@ -313,12 +262,9 @@ header {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-
   color: var(--text-cl);
-
   cursor: pointer;
   text-decoration: none;
-
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -331,9 +277,7 @@ header {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-
   color: var(--brand-color2);
-
   cursor: pointer;
   text-decoration: none;
   position: relative;
@@ -366,9 +310,7 @@ header {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-
   color: var(--brand-color2);
-
   cursor: pointer;
   text-decoration: none;
   position: relative;
@@ -391,12 +333,9 @@ header {
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-
   color: var(--text-cl);
-
   cursor: pointer;
   text-decoration: none;
-
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -416,12 +355,9 @@ header {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-
   color: var(--text-cl);
-
   cursor: pointer;
   text-decoration: none;
-
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -443,7 +379,6 @@ header {
   display: flex;
   gap: 10px;
   align-items: center;
-
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -475,18 +410,15 @@ header {
 .header__tel {
   text-decoration: none;
   list-style: none;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-
   color: var(--text-cl2);
   display: flex;
   gap: 10px;
-
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -505,18 +437,12 @@ header {
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
-
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
-
   text-decoration: none;
   list-style: none;
-
   display: block;
-
   transition-property: background-color color;
-
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -536,64 +462,37 @@ header {
 .header__smartphone:focus {
   fill: var(--brand-color2);
 }
-/* Шапка */
-
-/* Ефективні рішення для вашого бізнесу */
 
 .hero__name {
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
-
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--text-button-color);
-
   margin-left: auto;
   margin-right: auto;
-
   width: 696px;
-
   margin-bottom: 30px;
 }
 
-/* Особливості */
-
 .qualities__acquirement {
-  /* УВАГА ДО ДЕТАЛЕЙ */
-
   font-size: 14px;
   line-height: calc(16 / 14);
-
   text-transform: uppercase;
 }
 
 .qualities__text {
   line-height: calc(24 / 14);
-  /* or 171% */
-
   color: var(--text-cl2);
-
   margin-top: 10px;
 }
-
-/* Чим ми займаємося */
-
-/* .section-title {
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
-
-  margin-bottom: 50px;
-} */
 
 .pictures__title {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
-
   margin-bottom: 50px;
 }
 
@@ -601,7 +500,6 @@ header {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
-
   margin-bottom: 50px;
 }
 
@@ -609,7 +507,6 @@ header {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
-
   margin-bottom: 50px;
 }
 
@@ -617,10 +514,7 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
-  /* identical to box height */
-
   text-align: center;
-
   padding-top: 30px;
   margin-bottom: 10px;
 }
@@ -628,13 +522,11 @@ header {
 .people__profession {
   font-size: 16px;
   line-height: calc(19 / 16);
-
   text-align: center;
-
   color: var(--text-cl2);
-
   margin-bottom: 16px;
 }
+
 .footer {
   background-color: var(--brand-color);
   padding-top: 60px;
@@ -647,13 +539,9 @@ header {
 
 .footer__link {
   line-height: calc(24 / 14);
-  /* or 171% */
-
   color: var(--text-button-color);
-
   text-decoration: none;
   list-style: none;
-
   display: block;
 }
 
@@ -663,32 +551,20 @@ header {
 
 .footer__email {
   line-height: calc(24 / 14);
-
   color: rgba(255, 255, 255, 0.6);
-
   text-decoration: none;
   list-style: none;
-
   display: block;
-
   transition-property: color;
-
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer__phone {
-  /* margin-bottom: 60px; */
 }
 
 .project__title {
   font-size: 18px;
   line-height: calc(36 / 18);
-
   letter-spacing: 0.06em;
-
   color: var(--text-cl);
-
   padding-top: 20px;
   margin-bottom: 4px;
   padding-left: 24px;
@@ -697,18 +573,10 @@ header {
 .project__text {
   font-size: 16px;
   line-height: calc(30 / 16);
-
   color: var(--text-cl2);
-
   padding-bottom: 20px;
   padding-left: 24px;
 }
-
-/* .portfolio-block {
-  width: 1170px;
-  height: 1360px;
-  display: flex;
-} */
 
 .project__list {
   display: flex;
@@ -727,8 +595,6 @@ header {
 
 .people__specialist {
   background: var(--text-button-color);
-  /* material shadow v1 */
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -764,7 +630,6 @@ header {
   border-radius: 4px;
   color: #afb1b8;
   transition-property: border-color, color;
-
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -797,9 +662,7 @@ header {
   justify-content: center;
   align-items: center;
   color: #afb1b8;
-
   transition-property: background-color, color;
-
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -823,9 +686,7 @@ header {
   align-items: center;
   fill: var(--text-button-color);
   background-color: rgba(255, 255, 255, 10%);
-
   transition-property: background-color;
-
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -838,9 +699,7 @@ header {
 
 .footer__accession {
   font-weight: 700;
-
   line-height: calc(16 / 14);
-
   text-transform: uppercase;
   margin-bottom: 20px;
   color: var(--text-button-color);
@@ -880,7 +739,6 @@ header {
 .pictures__classes {
   font-size: 14px;
   line-height: calc(16 / 14);
-
   text-transform: uppercase;
   color: var(--text-button-color);
 }
@@ -905,18 +763,12 @@ header {
   width: 100%;
   height: 100%;
   background-color: rgba(33, 150, 243, 90%);
-
   transform: translatey(+100%);
   transition: transform 250ms ease;
-
   padding: 63px 24px;
-
   font-size: 18px;
   line-height: calc(28 / 18);
-  /* or 156% */
-
   letter-spacing: 0.03em;
-
   color: var(--text-button-color);
 }
 
@@ -926,9 +778,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-
   z-index: 1000;
-
   transition: visibility 250ms, opacity 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -937,7 +787,6 @@ header {
   width: 528px;
   padding: 40px;
   background-color: var(--text-button-color);
-
   position: absolute;
   top: 50%;
   left: 50%;
@@ -959,14 +808,11 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-
   background-color: var(--text-button-color);
   border: 1px solid rgba(0, 0, 0, 10%);
-
   width: 30px;
   height: 30px;
   cursor: pointer;
-
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1016,9 +862,7 @@ textarea {
   font-size: 20px;
   line-height: calc(23 / 20);
   text-align: center;
-
   display: block;
-
   color: var(--text-cl);
   margin-bottom: 12px;
 }
@@ -1031,7 +875,6 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-
   gap: 8px;
 }
 
@@ -1062,7 +905,6 @@ textarea {
   padding-right: 42px;
   outline: transparent;
   cursor: pointer;
-
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1083,7 +925,6 @@ textarea {
   position: absolute;
   bottom: 14px;
   left: 15px;
-  /* transition-property: background-color, color, box-shadow; */
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1132,17 +973,14 @@ textarea {
 
 .register-form__desc {
   user-select: none;
-
   font-size: 14px;
   line-height: 24px;
-
   color: var(--text-cl2);
 }
 
 .register-form__link {
   font-size: 14px;
   line-height: 24px;
-
   color: var(--brand-color2);
 }
 
@@ -1164,7 +1002,6 @@ textarea {
   padding-left: 16px;
   font-size: 16px;
   line-height: calc(20 / 16);
-
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
