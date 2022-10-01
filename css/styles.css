@@ -95,7 +95,7 @@ textarea {
   padding: 10px 32px;
 }
 
-.button__list {
+.knob__list {
   text-decoration: none;
   list-style: none;
   display: flex;
@@ -104,7 +104,7 @@ textarea {
   margin-bottom: 50px;
 }
 
-.button__assortment {
+.knob__assortment {
   color: var(--text-cl);
   background-color: var(--button-assortment-background-color);
   font-family: 'Roboto';
@@ -123,8 +123,8 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button__assortment:hover,
-.button__assortment:focus {
+.knob__assortment:hover,
+.knob__assortment:focus {
   background-color: var(--brand-color2);
   color: var(--text-button-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
