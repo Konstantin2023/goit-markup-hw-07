@@ -1,0 +1,46 @@
+@import '../utils/vars';
+
+html {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+body {
+  letter-spacing: 0.03em;
+  font-family: $Raleway, $sans-serif;
+  font-family: $Roboto, $sans-serif;
+  font-size: 14px;
+  color: $--text-cl;
+}
+
+header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ececec;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+  resize: none;
+  width: 448px;
+  height: 120px;
+}

@@ -53,6 +53,10 @@ textarea {
   height: 120px;
 }
 
+.textarea {
+  margin-bottom: 20px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -95,7 +99,7 @@ textarea {
   padding: 10px 32px;
 }
 
-.knob__list {
+.portfolio-btn__list {
   text-decoration: none;
   list-style: none;
   display: flex;
@@ -104,7 +108,7 @@ textarea {
   margin-bottom: 50px;
 }
 
-.knob__assortment {
+.portfolio-btn__assortment {
   color: var(--text-cl);
   background-color: var(--button-assortment-background-color);
   font-family: 'Roboto';
@@ -123,8 +127,8 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.knob__assortment:hover,
-.knob__assortment:focus {
+.portfolio-btn__assortment:hover,
+.portfolio-btn__assortment:focus {
   background-color: var(--brand-color2);
   color: var(--text-button-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
@@ -953,10 +957,6 @@ textarea {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.textaria {
-  margin-bottom: 20px;
 }
 
 .register-form__message {
