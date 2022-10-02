@@ -1,5 +1,10 @@
 @import '../utils/vars';
 
+%clientage {
+  display: flex;
+  justify-content: center;
+}
+
 .clientage {
   &__title {
     font-size: 36px;
@@ -9,14 +14,12 @@
   }
 
   &__list {
-    display: flex;
-    justify-content: center;
+    @extend %clientage;
     gap: 30px;
   }
 
   &__link {
-    display: flex;
-    justify-content: center;
+    @extend %clientage;
     align-items: center;
     width: 170px;
     height: 92px;

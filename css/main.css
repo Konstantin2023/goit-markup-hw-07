@@ -136,18 +136,47 @@ textarea {
           box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.header__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.header__logo {
+.header__span, .header__logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1923076923;
   letter-spacing: 0.03em;
+}
+
+.header__portfolio--actively, .header__studio--actively {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428571429;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 33px;
+}
+
+.header__portfolio--actively::after, .header__studio--actively::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #2196f3;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 2px;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__logo {
   color: #2196f3;
   text-decoration: none;
   list-style: none;
@@ -161,12 +190,6 @@ textarea {
 }
 .header__span {
   color: #212121;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1923076923;
-  letter-spacing: 0.03em;
 }
 .header__nav {
   display: -webkit-box;
@@ -184,54 +207,6 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-.header__studio--actively {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1428571429;
-  letter-spacing: 0.02em;
-  color: #2196f3;
-  cursor: pointer;
-  text-decoration: none;
-  position: relative;
-  padding-bottom: 33px;
-}
-.header__studio--actively::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: #2196f3;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  border-radius: 2px;
-}
-.header__portfolio--actively {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1428571429;
-  letter-spacing: 0.02em;
-  color: #2196f3;
-  cursor: pointer;
-  text-decoration: none;
-  position: relative;
-  padding-bottom: 33px;
-}
-.header__portfolio--actively::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: #2196f3;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  border-radius: 2px;
 }
 .header__studio {
   font-family: "Roboto";
@@ -554,6 +529,15 @@ textarea {
   fill: currentColor;
 }
 
+.clientage__link, .clientage__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .clientage__title {
   font-size: 36px;
   line-height: 1.1666666667;
@@ -561,21 +545,9 @@ textarea {
   margin-bottom: 50px;
 }
 .clientage__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   gap: 30px;
 }
 .clientage__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -674,6 +646,14 @@ textarea {
   padding-left: 24px;
 }
 
+.footer__studio, .footer__logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923076923;
+  letter-spacing: 0.03em;
+}
+
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
@@ -693,11 +673,6 @@ textarea {
 }
 .footer__logo {
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1923076923;
-  letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
   list-style: none;
@@ -707,11 +682,6 @@ textarea {
 .footer__studio {
   color: #ffffff;
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1923076923;
-  letter-spacing: 0.03em;
 }
 .footer__location {
   margin-bottom: 9px;
