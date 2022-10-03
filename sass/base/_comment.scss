@@ -1,26 +1,5 @@
 @import '../utils/vars';
 
-html {
-  box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-p,
-ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-ul {
-  list-style: none;
-}
-
-address {
-  font-style: normal;
-}
 body {
   letter-spacing: 0.03em;
   font-family: $Raleway, $sans-serif;
@@ -35,12 +14,14 @@ header {
   border-bottom: 1px solid #ececec;
 }
 
-label {
-  display: block;
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
-textarea {
-  resize: none;
-  width: 448px;
-  height: 120px;
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
